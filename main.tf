@@ -7,10 +7,6 @@ terraform {
   }
 }
 
-# Create a VPC
-resource "aws_vpc" "my_vpc" {
-  cidr_block = var.cidr
-}
 
 #AWS Security Group
 resource "aws_security_group" "blue_firewall" {
