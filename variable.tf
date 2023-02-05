@@ -4,12 +4,6 @@ variable "region" {
   default     = "us-east-1"
 }
 
-variable "cidr" {
-  description = "The IPv4 CIDR block for the VPC"
-  type        = string
-  default     = "10.0.0.0/16"
-}
-
 variable "ami" {
   description = "The AMI ID of the instance"
   type        = string
